@@ -1,0 +1,13 @@
+2026-10-06 23:20:33,274 [INFO] main: Starting pipeline. Target: all, max_pages: 2
+2026-10-06 23:20:33,275 [INFO] BooksScraper: [Books to Scrape] Scraping page 1: https://books.toscrape.com/
+2026-10-06 23:20:35,460 [INFO] BooksScraper: [Books to Scrape] Scraping page 2: https://books.toscrape.com/catalogue/page-2.html
+2026-10-06 23:20:36,489 [INFO] BooksScraper: Reached max_pages limit (2). Stopping.
+2026-10-06 23:20:36,490 [INFO] QuotesScraper: [Quotes to Scrape] Scraping page 1: https://quotes.toscrape.com/
+2026-10-06 23:20:38,636 [INFO] QuotesScraper: [Quotes to Scrape] Scraping page 2: https://quotes.toscrape.com/page/2/
+2026-10-06 23:20:39,637 [INFO] QuotesScraper: Reached max_pages limit (2). Stopping.
+2026-10-06 23:20:39,638 [INFO] main: Extraction complete. Raw total: 60
+2026-10-06 23:20:39,639 [INFO] main: Validation complete. Valid: 60, Rejected: 0
+2026-10-06 23:20:39,640 [INFO] main: Deduplication complete. Unique: 60, Duplicates: 0
+2026-10-06 23:20:39,642 [INFO] main: Wrote 60 records to final_dataset.csv
+2026-10-06 23:20:39,645 [INFO] main: Summary written to summary_report.json
+2026-10-06 23:20:39,646 [INFO] main: Pipeline finished in 6.37s. Reconciliation OK: True
